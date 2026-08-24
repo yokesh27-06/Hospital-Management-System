@@ -1,8 +1,8 @@
 # Hospital-Management-System
 
-# Reg No:
-# Name:
-# Date:
+# Reg No: 212224230312
+# Name: Yokesh H
+# Date: 24/08/26
 
 
 # AIM:
@@ -30,6 +30,9 @@ A use case diagram is a graphical depiction of a user's possible interactions wi
 UML is the modeling toolkit that you can use to build your diagrams. Use cases are represented with a labeled oval shape.
 
 Stick figures represent actors in the process, and the actor's participation in the system is modeled with a line between the actor and use case.
+
+
+
 # UML use case diagrams are ideal for:
 
 Representing the goals of system-user interactions
@@ -41,7 +44,7 @@ Specifying the context and requirements of a system
 → Modeling the basic flow of events in a sina use case.
 
 
-
+<img width="816" height="653" alt="Screenshot 2026-08-24 at 9 27 36 PM" src="https://github.com/user-attachments/assets/248e84a8-d827-4b57-81ae-44e8a006e29c" />
 
 
 
@@ -60,14 +63,16 @@ Visually express any specific needs of a system and disseminate that information
 
 Create detailed charts that…
 
+<img width="820" height="589" alt="Screenshot 2026-08-24 at 9 28 19 PM" src="https://github.com/user-attachments/assets/cc373430-f75b-486e-b16a-c28696eb5213" />
 
 
-# COMMUNICTION DIAGRAM:
+# COMMUNICATION DIAGRAM:
 
 A communication diagram offers the same information as a sequence diagram, but while a sequence diagram emphasizes the time and order of events, a communication diagram emphasizes the messages exchanged between objects in an application. Sequence diagrams can fall short of offering the "big picture."
 
 Communication diagrams offer benefits similar to sequence diagrams, but they will offer a better understanding of how components communicate and interact with each other rather than solely emphasizing the sequence of events. They can be a useful reference for businesses, organizations, and engineers who need to visualize and understand the physical communications within a program. Try drawing a sequence diagram to:
 
+<img width="831" height="557" alt="Screenshot 2026-08-24 at 9 28 55 PM" src="https://github.com/user-attachments/assets/8ff8faf1-a4f4-4bd3-979f-b32bb2beed4f" />
 
 
 
@@ -79,6 +84,7 @@ organization of the layered architecture within any UML classifier, such as a so
 
 A well-designed package diagram provides numerous benefits to those looking to create a visualization of their UML system or project.
 
+<img width="805" height="544" alt="Screenshot 2026-08-24 at 9 29 21 PM" src="https://github.com/user-attachments/assets/18a06702-ebfe-4264-971e-4b5531519e25" />
 
 
 
@@ -98,6 +104,7 @@ Demonstrate the logic of an algorithm.
 
 Describe the steps performed in a UML use case.
 
+<img width="612" height="775" alt="Screenshot 2026-08-24 at 9 31 25 PM" src="https://github.com/user-attachments/assets/1b3144c2-365c-4c8d-b59d-3dbcfc6be650" />
 
 
 
@@ -120,6 +127,7 @@ Model the logic of a sophisticated procedure, function, or operation. See how ob
 Plan and understand the detailed functionality of an existing or future scenario.
 
 
+<img width="839" height="706" alt="Screenshot 2026-08-24 at 9 29 52 PM" src="https://github.com/user-attachments/assets/84e0c041-fe83-4ac6-8b0c-ca1d65d9bca6" />
 
 
 
@@ -127,4 +135,3 @@ Plan and understand the detailed functionality of an existing or future scenario
 # RESULT
 
 Thus the project to develop Hospital Management system was developed using Star UML Software is done successfully.
-
