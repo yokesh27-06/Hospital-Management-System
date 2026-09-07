@@ -1,137 +1,220 @@
-# Hospital-Management-System
-
+# 🏥 Hospital Management System using StarUML
 # Reg No: 212224230312
-# Name: Yokesh H
-# Date: 24/08/26
+# Name: YOKESH H
+# Date: 21/08/2026
 
 
-# AIM:
-To develop the Hospital Management System using Star UML.
+A UML-based **Hospital Management System** designed using **StarUML** to model the structure, behavior, and interactions of a hospital information system. This project demonstrates the software design phase using various UML diagrams.
 
-# Problem Statement:
-1.Hospital Management System is needed to streamline and automate various hospital operations that are currently handled manually or with fragmented software, leading to inefficiencies and errors.
 
-2.Managing patient records, appointments, billing, and medical histories manually causes delays, data loss, and poor coordination among departments.
+##  Aim
 
-3.Patients face difficulties in booking appointments, accessing their medical reports, and receiving timely notifications for tests or follow-ups.
+To design and develop a **Hospital Management System** using **StarUML** by creating different UML diagrams that represent the system architecture, workflow, and interactions.
 
-4.Hospital staff and doctors require a centralized platform to manage patient information, schedule consultations, prescribe medications, and track treatments efficiently.
 
-5.The system should integrate pharmacy management, billing, staff management, and inventory control to improve overall hospital workflow and resource utilization.
+##  Problem Statement
 
-6.It must ensure secure, role-based access for doctors, nurses, administrative staff, and patients, while maintaining data confidentiality and complying with healthcare regulations.
+Hospitals require an efficient and secure system to manage patients, doctors, appointments, medical records, billing, and administration. Manual processes are time-consuming and prone to errors. This Hospital Management System provides a centralized solution for managing hospital operations effectively.
 
-UML DIAGRAMS
+The system allows users to:
 
-# USE CASE DIAGRAM
+- Register and manage patients
+- Book appointments with doctors
+- Maintain medical records
+- Generate prescriptions
+- Manage billing and payments
+- Manage hospital staff and departments
+- Generate reports
+- Ensure secure login and authentication
 
-A use case diagram is a graphical depiction of a user's possible interactions with a system. The use cases are represented by either circles or ellipses. The actors are often shown as stick figures.
 
-UML is the modeling toolkit that you can use to build your diagrams. Use cases are represented with a labeled oval shape.
 
-Stick figures represent actors in the process, and the actor's participation in the system is modeled with a line between the actor and use case.
+##  UML Diagrams Included
 
+### 1. Use Case Diagram
+Represents the interactions between users and the Hospital Management System.
 
+**Actors**
+- Patient
+- Doctor
+- Receptionist
+- Administrator
 
-# UML use case diagrams are ideal for:
+**Use Cases**
+- Login
+- Register Patient
+- Book Appointment
+- View Medical Records
+- Update Medical Records
+- Generate Prescription
+- Generate Bill
+- Make Payment
+- Manage Doctors
+- Manage Staff
+- Manage Departments
+- View Reports
+- Logout
 
-Representing the goals of system-user interactions
+---
 
-Defining and organizing functional requirements in a system
+<img width="802" height="696" alt="Screenshot 2026-08-07 100534" src="https://github.com/user-attachments/assets/8c5b27d8-a62a-4e0d-80aa-5430e144b525" />
 
-Specifying the context and requirements of a system
 
-→ Modeling the basic flow of events in a sina use case.
 
+### 2. Class Diagram
 
-<img width="816" height="653" alt="Screenshot 2026-08-24 at 9 27 36 PM" src="https://github.com/user-attachments/assets/248e84a8-d827-4b57-81ae-44e8a006e29c" />
+Represents the static structure of the system including classes, attributes, methods, and relationships.
 
+**Classes**
+- Patient
+- Doctor
+- Appointment
+- Medical Record
+- Billing
+- Department
+- Staff
+- Administrator
 
+---
+<img width="1005" height="697" alt="Screenshot 2026-08-07 101120" src="https://github.com/user-attachments/assets/fb9d28f3-bc4e-4b2a-8b44-cdab17c00a1d" />
 
 
-# CLASS DIAGRAM
 
-The Unified Modeling Language (UML) can help you model systems in various ways. One of the more popular types in UML is the class diagram. Popular
+### 3. Communication Diagram
 
-among software engineers to document software architecture, class diagrams are a type of structure diagram because they describe what must be present in the system being modeled. No matter your level of familiarity with UML or class diagrams, our UML software is designed to be simple and easy to use.
+Shows how different objects communicate with each other during patient registration, appointment booking, consultation, billing, and payment.
 
-Class diagrams offer a number of bend is for any organization. Use UML class diagrams to:
+---
+<img width="1043" height="687" alt="Screenshot 2026-08-07 101726" src="https://github.com/user-attachments/assets/98b4a0f6-4cb6-4e79-88e5-71cc648020be" />
 
-Better understand the general overview of the schematics of an application.
 
-Visually express any specific needs of a system and disseminate that information throughout the business.
 
-Create detailed charts that…
+### 4. Package Diagram
 
-<img width="820" height="589" alt="Screenshot 2026-08-24 at 9 28 19 PM" src="https://github.com/user-attachments/assets/cc373430-f75b-486e-b16a-c28696eb5213" />
+Organizes the system into logical modules.
 
+Packages include:
 
-# COMMUNICATION DIAGRAM:
+- User Management
+- Patient Management
+- Doctor Management
+- Appointment Management
+- Billing
+- Reports
 
-A communication diagram offers the same information as a sequence diagram, but while a sequence diagram emphasizes the time and order of events, a communication diagram emphasizes the messages exchanged between objects in an application. Sequence diagrams can fall short of offering the "big picture."
+---
+<img width="1015" height="712" alt="Screenshot 2026-08-07 102706" src="https://github.com/user-attachments/assets/7f8d9c7d-939f-4231-b5ca-3d4119641558" />
 
-Communication diagrams offer benefits similar to sequence diagrams, but they will offer a better understanding of how components communicate and interact with each other rather than solely emphasizing the sequence of events. They can be a useful reference for businesses, organizations, and engineers who need to visualize and understand the physical communications within a program. Try drawing a sequence diagram to:
 
-<img width="831" height="557" alt="Screenshot 2026-08-24 at 9 28 55 PM" src="https://github.com/user-attachments/assets/8ff8faf1-a4f4-4bd3-979f-b32bb2beed4f" />
 
+### 5. Activity Diagram
 
+Illustrates the workflow of the hospital process from patient registration to billing.
 
-# PACKAGE DIAGRAM:
+Workflow:
 
-Package diagrams are structural diagrams used to show the organization and arrangement of various model elements in the form of packages. A package is a grouping of related UML elements, such as diagrams, documents, classes, or even other packages. Each element is nested within the package, which is depicted as a file folder within the diagram, then arranged hierarchically within the diagram. Package diagrams are most commonly used to provide a visual
+```
+Start
+↓
+Login / Register
+↓
+Book Appointment
+↓
+Doctor Consultation
+↓
+Update Medical Record
+↓
+Generate Prescription
+↓
+Generate Bill
+↓
+Payment
+↓
+End
+```
 
-organization of the layered architecture within any UML classifier, such as a software system.
+---
 
-A well-designed package diagram provides numerous benefits to those looking to create a visualization of their UML system or project.
+<img width="480" height="727" alt="Screenshot 2026-08-07 102948" src="https://github.com/user-attachments/assets/0a4d50a3-d998-42e3-aeae-6b3afa4ec806" />
 
-<img width="805" height="544" alt="Screenshot 2026-08-24 at 9 29 21 PM" src="https://github.com/user-attachments/assets/18a06702-ebfe-4264-971e-4b5531519e25" />
 
+### 6. Sequence Diagram
 
+Represents the chronological interaction between system objects during appointment booking and consultation.
 
+Objects involved:
 
+- Patient
+- Receptionist
+- Appointment
+- Doctor
+- Medical Record
+- Billing System
 
+---
+<img width="1067" height="717" alt="Screenshot 2026-08-07 103253" src="https://github.com/user-attachments/assets/7011bfbc-16ee-4b3d-90fc-c9183f1810da" />
 
 
-# ACTIVITY DIAGRAM:
+##  Software Used
 
-The Unified Modeling Language includes several subsets of diagrams, including structure diagrams, interaction diagrants, and behavior diagrams. Activity diagrams, along with use case and state machine diagrams, are considered behavior diagrams because they describe what must happen in the system being modeled.
+- **StarUML**
+- UML 2.x
 
-Stakeholders have many issues to manage, so it's important to communicate with clarity and brevity. Activity diagrams help people on the business and development sides of an organization come together to understand the same process and behavior.
+---
 
-Activity diagrams present a number of benefits to users. Consider creating an activity diagram to:
+##  Project Preview
 
-Demonstrate the logic of an algorithm.
+### UML Diagrams
 
-Describe the steps performed in a UML use case.
+- ✅ Use Case Diagram
+- ✅ Class Diagram
+- ✅ Communication Diagram
+- ✅ Package Diagram
+- ✅ Activity Diagram
+- ✅ Sequence Diagram
 
-<img width="612" height="775" alt="Screenshot 2026-08-24 at 9 31 25 PM" src="https://github.com/user-attachments/assets/1b3144c2-365c-4c8d-b59d-3dbcfc6be650" />
+---
 
+##  Features
 
+- Patient Registration
+- Doctor Management
+- Appointment Scheduling
+- Medical Records Management
+- Prescription Generation
+- Billing System
+- Payment Management
+- Report Generation
+- Secure User Authentication
+- User-Friendly Design
 
+---
 
-# SEQUENCE DIAGRAM
+##  Applications
 
-A sequence diagram is a type of intera jon diagram because it describes how- and in what order a group of objects works together. These diagrams are used by software developers and business professionals to understand requirements for
+- Hospitals
+- Clinics
+- Medical Centers
+- Diagnostic Centers
+- Healthcare Organizations
 
-a new system or to document an existing process. Sequence diagrams are sometimes known as event diagrams or event scenarios.
+---
 
+##  Future Enhancements
 
-# BENEFITS OF SEQUENCE DIAGRAM
+- Online Appointment Booking
+- SMS & Email Notifications
+- Online Payment Gateway
+- Pharmacy Management
+- Laboratory Management
+- Electronic Health Records (EHR)
+- Mobile Application Support
+- AI-Based Appointment Scheduling
 
-Sequence diagrams can be useful references for businesses and other organizations. Try drawing a sequence diagram to:
+---
 
-Represent the details of UML use cases.
+##  Conclusion
 
-Model the logic of a sophisticated procedure, function, or operation. See how objects and components interact with each other to complete a process.
+The **Hospital Management System** was successfully designed using **StarUML**. The UML diagrams clearly represent the structure, behavior, and interactions of the system, making it easier to understand, analyze, and implement the software in real-world healthcare environments.
 
-Plan and understand the detailed functionality of an existing or future scenario.
-
-
-<img width="839" height="706" alt="Screenshot 2026-08-24 at 9 29 52 PM" src="https://github.com/user-attachments/assets/84e0c041-fe83-4ac6-8b0c-ca1d65d9bca6" />
-
-
-
-
-# RESULT
-
-Thus the project to develop Hospital Management system was developed using Star UML Software is done successfully.
+---
